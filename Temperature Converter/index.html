@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Revision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="calculate">
+        <h1>Temperature Converter</h1>
+        <div class="input">
+            <input type="text" id="num" placeholder="Enter your Temperature">
+            <select id="inputTemp">
+                    <option value="cel">Celcius (C)</option>
+                    <option value="fah">Fahrenheit (F)</option>
+                    <option value="kel">Kelvin (K)</option>
+                </select>
+        </div>
+        <div class="output">
+            <div id="result"></div>
+            <select id="outputTemp">
+                    <option value="cel">Celcius (C)</option>
+                    <option value="fah">Fahrenheit (F)</option>
+                    <option value="kel">Kelvin (K)</option>
+                </select>
+        </div>
+        <br>
+        <button onclick="convertTemp();" id="equals">Convert</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+#calculate {
+    width: calc(50% - 350px);
+    min-height: 100px;
+    padding: 2%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 6px;
+    color: #fff;
+    background-color: rgba(48, 49, 49, 0.86);
+    box-shadow: 0 6px 28px rgb(236, 234, 234);
+}
+
+#calculate h1 {
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.8px;
+    font-size: 32px;
+    font-weight: 850;
+}
+
+#calculate .input,
+#calculate .output {
+    display: flex;
+    justify-content: space-between;
+}
+
+#calculate input {
+    margin: 2% 0;
+    width: 100%;
+    border: 0;
+    margin-right: 20px;
+}
+
+#calculate input::placeholder {
+    text-indent: 5px;
+}
+
+#calculate select {
+    margin: 2% 0;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    color: #fff;
+    padding: 0 5px;
+    background-color: rgb(62, 62, 62);
+    border-radius: 50px;
+    outline: none;
+    box-shadow: none;
+    border-color: none;
+}
+
+#calculate button {
+    border: 0;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    letter-spacing: 0.8px;
+    background: rgb(3, 70, 58);
+    display: inline;
+    margin-right: 5px;
+    margin: 0 36%;
+}
+
+#calculate #result {
+    width: calc(100% - 45px);
+    height: 30px;
+}
+
+#calculate #result,
+#calculate #num {
+    height: 40px;
+    border-radius: 50px;
+    text-indent: 12px;
+    color: #fff;
+    background-color: rgb(62, 62, 62);
+    outline: none;
+    box-shadow: none;
+    border-color: none;
+}
+
+#calculate #result::placeholder,
+#calculate #num::placeholder {
+    text-indent: 16px;
+}
+
+#calculate #result {
+    cursor: no-drop;
+    width: calc(100% - 120px);
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
